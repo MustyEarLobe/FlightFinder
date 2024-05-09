@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F5eDCvzbqtr9TjrWTRHHgzOkW+4ZmwqXIEIOXS18VWZda9BvdZC+qcLbZAv5vn6190n0LHzcs5cbuhaz6/as/Q==",
+  "success": true,
+  "projectFilePath": "D:\\FlightFinder\\FlightFinder.Web\\FlightFinder.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caleb\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

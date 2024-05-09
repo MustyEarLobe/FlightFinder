@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>FlightFinderWebApp</p>
+</div>
+<body>
+
+    <h1>The input element</h1>
+
+    <form>
+        <label for="inputStr">Input:</label>
+        <input type="text" id="inputStr" name="inputStr"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.OutputMessage))
+    {
+        <div Id="OutputMessage" style="padding-top:20px"> @Model.OutputMessage</div>
+    }
+
+    <p style="padding-top:20px">
+        This app will determining how many instances of the word “flight” are possible in a supplied string. 
+        <div>- Each character may only be used once in composing the word “flight”.</div>
+        <div>- Only lower-case characters will be given as an input.</div>
+        <div>- No more than 100 characters will be given as an input.</div>
+    </p>
+
+</body>
