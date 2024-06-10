@@ -18,6 +18,6 @@ instances of the word “flight” are possible in a supplied string.
 # Notes 
 In this project, I wanted my ability to utilize Api, MVC, Nunit testing technology. 
 
-I considered that business could be handling larger data than 100 characters, So I wanted to demonstrate my knowledge of optimization by both Sterilizing, and Manipulating the data then exercising Batching.
+I considered that the business could be handling larger data than 100 characters, So I wanted to demonstrate my knowledge of optimization by both Sterilizing, and Manipulating the data then exercising Batching.
 
 I also considered appropriate data types, using ImmutableArray was the best for a constant as it is easily scalable. If I was to Scale Up I would have used HashSets rather than Tuples, but as this is not the scope of the project and I like using Tuples, I chose Tuples. 
